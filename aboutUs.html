@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!-- todaymade -->
+<html lang="en">
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<!-- /Bootstrap -->
+<!-- Custom CSS -->
+<link rel="stylesheet" type="text/css" href="css/homepageStyle.css">
+<!-- /Custom CSS -->
+<link rel="stylesheet" type="text/css" href="css/flip-box.css">
+
+<link rel="shortcut icon" href="css/images/icon.ico" type="image/x-icon">
+<link rel="icon" href="css/images/icon.ico" type="image/x-icon">
+
+<script src="js/parallax.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Conor D'Arcy">
+
+
+<title>Brighton Investments</title>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','http://google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74730043-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+
+
+
+$(document).ready
+(
+	function()
+	{
+
+		if ("ontouchstart" in document.documentElement==false)
+		{
+  			$(".panel-heading").hover(function(){
+    		$(this).toggleClass("panel-hover");
+    		}, function(){
+    		$(this).toggleClass("panel-hover");
+			});
+		}
+    }
+
+);
+</script>
+  <div id="navMain" style="opacity:.9;" class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
+    
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="pull-left"><img src="css/images/header.jpg" style="height: auto; width: auto; max-height: 45px; padding-top:5px;"></a>
+    </div>
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav pull-right" >
+            <li><a class="changeGreen mobileShow" href="index.html" >Home</a></li>
+            <li><a class="changeGreen mobileShow" href="daveRamsey.html">Dave Ramsey</a></li>
+            <li><a class="changeGreen mobileShow" href="contactUs.html">Contact Us</a></li>
+            <div id="phoneNumber" class="navbar-text"><span style="color:#6FB353;padding-right:5px;" class="glyphicon glyphicon-phone-alt"></span>(559) 320 0285</div>
+
+            <li><a href="https://myaccountviewonline.com/AccountView/">Account Login</a></li>
+            
+            <li class="dropdown dropdown-menu-right pull-right mobileHide" style="height:50px;">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="height:50px">
+                    <span class="glyphicon glyphicon-menu-hamburger" style="font-size:20px;">
+                    </span>
+                </a>
+                
+                <ul class="dropdown-menu pull-right">
+                    <li>
+                        <a class="changeGreen" href="index.html" >Home</a>
+                    </li>
+                    <!-- LITE <li>
+                        <a class="changeGreen" href="whatMakesUsDifferent.html">Why us?</a>
+                    </li> -->
+                    <li>
+                        <a class="changeGreen" href="daveRamsey.html">Dave Ramsey</a>
+                    </li>
+                    <!-- LITE<li>
+                        <a class="changeGreen" href="aboutUs.html">About us</a>
+                    </li> -->
+                    <li>
+                        <a class="changeGreen" href="contactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </div>
+<body>
+	<div class="container-fluid">
+	<div id="services" style="background-color:#F9F9FA; height:auto;min-height:250px; width:100%; margin-top:50px; padding-bottom:25px; overflow:hidden">
+		<div class="row">
+			<span class="title" style="font-size:35px;">OUR SERVICES</span>
+			<div class="separator-container">
+				<div class="separator line-separator">∎</div>
+			</div>
+		</div>
+		
+	<!-- 	=============PANELS============= -->
+		
+
+		<div class="col-sm-4">
+			<div class="row" style="padding-top:53px">
+				<div class="title" style="font-size:25px;padding-top:0px;padding-bottom:10px;">
+					Risk Management & Solutions
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-green">
+					<div class="panel-heading" onclick="$(this).siblings().toggleClass('collapse')">Long Term Care</div>
+					<div class="panel-body collapse">
+						Ask anyone who has gone through this with a loved-one, paying for long-term care costs can ruin an otherwise sound financial plan.  We can show you several options to make sure all your work and planning does not go waste, and help decide when the right age to get insurance might be.
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-green">
+					<div class="panel-heading" onclick="$(this).siblings().toggleClass('collapse')">Disability Insurance</div>
+					<div class="panel-body collapse">
+						Losing income due to a medium or long term disability is much more common than most people think, and the coverage most have through work is not remotely adequate.  We can help bridge the gap to ensure your goals stay on track, no matter what life might throw at you.
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-green">
+					<div class="panel-heading" onclick="$(this).siblings().toggleClass('collapse')">Life Insurance </div>
+					<div class="panel-body collapse">
+						Most people know that life insurance is important, but knowing how much coverage is right for you, and what kinds of policies are the best fit is where many get stuck.  Our expertise and unbiased advise can really help.
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="col-sm-4">
+			<div class="row">
+				<div class="title" style="font-size:25px;padding-top:0px;padding-bottom:10px;">
+					Individuals & Families
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-green">
+					<div class="panel-heading" onclick="$(this).siblings().toggleClass('collapse')">Comprehensive Financial Planning</div>
+					<div class="panel-body collapse">
+						We’ll take a look at all aspects of your financial picture and get you on the best path to reach your goals.
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-green">
+					<div class="panel-heading" onclick="$(this).siblings().toggleClass('collapse')">Retirement & Income Planning</div>
+					<div class="panel-body collapse">
+						When the time comes that you are financially ready to stop working or to pursue your other passions, we’ll help you plan the details of how exactly that’s going to work.
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-green">
+					<div class="panel-heading" onclick="$(this).siblings().toggleClass('collapse')">Investment Portfolio </div>
+					<div class="panel-body collapse">
+						Whether you are investing in an IRA, ROTH, 529 or brokerage account, we’ll help you decide on the best investments to match your goals and personality.
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-green">
+					<div class="panel-heading" onclick="$(this).siblings().toggleClass('collapse')">Education Planning</div>
+					<div class="panel-body collapse">
+						 Planning for future college expenses can seem daunting, and the options available are overwhelming. We'll make things simple and help you do the best you can.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-4" style="padding-top:53px">
+			<div class="row">
+				<div class="title" style="font-size:25px;padding-top:0px; padding-bottom:10px">
+					Business Solutions
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="panel panel-green">
+					<div class="panel-heading" onclick="$(this).siblings().toggleClass('collapse')">Employer Sponsored Retirement Plan</div>
+					<div class="panel-body collapse">
+						We offer help with 401(k), 403(b), SEP IRA, SIMPLE IRA, profit sharing, Defined Benefits, and more. 
+					</div>
+				</div>
+				<div class="panel panel-green">
+					<div class="panel-heading" onclick="$(this).siblings().toggleClass('collapse')">Comprehensive Fiduciary Services</div>
+					<div class="panel-body collapse">
+						Address regulatory requirements and mitigate personal and corporate liability related to retirement plans.
+					</div>
+				</div>
+				<div class="panel panel-green">
+					<div class="panel-heading" onclick="$(this).siblings().toggleClass('collapse')">Executive Benefits</div>
+					<div class="panel-body collapse">
+						Strategies and Options to help Business Owners, their Executive Teams, and Highly Compensated Employees to prudently plan for retirement above and beyond what is capable with corporate retirement plans
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- <div id="faq">
+		<div class="row">
+			<span class="title" style="font-size:35px;">F.A.Q.</span>
+			<div class="separator-container">
+				<div class="separator line-separator">∎</div>
+			</div>
+		</div>
+
+		<div class="row question">
+			Who are your clients?
+		</div>
+		<div class="row answer">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<br>
+		<div class="row question">
+			What have your clients' returns been?
+		</div>
+		<div class="row answer">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<div class="row question">
+			How do you make your money?
+		</div>
+		<div class="row answer">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+
+	</div> -->
+
+
+
+
+	<!-- <div id="ourHistory" style="background-color: #F9F9FA; min-height:300px; height:auto; margin-top:30px;">
+		<div class="row">
+			<span class="title" style="font-size:35px;">OUR HISTORY</span>
+			<div class="separator-container">
+				<div class="separator line-separator">
+					∎
+				</div>
+			</div>
+		</div>
+		<div class="row answer">
+				Brighton Investments began as a blah blah blah. The founders were both blah  lah blah. Lorem ipsum. Blah blah blah. You knwo the deal.
+				And some other stuff over here. Brighton Investments began as a blah blah blah. The founders were both blah  lah blah. Lorem ipsum. Blah blah blah. You know the deal. 
+		</div>
+	</div> -->
+	
+	<div id="footer" class="row" >
+			<div class="col-sm-8">
+				<div id="footerDisclaimer">
+					The content is developed from sources believed to be providing accurate information. The information in this material is not intended as tax or legal advice. Please consult legal or tax professionals for specific information regarding your individual situation. Some of this material was developed and produced by FMG, LLC, to provide information on a topic that may be of interest. FMG, LLC, is not affiliated with the named representative, broker-dealer, state- or SEC-registered investment advisory firm. The opinions expressed and material provided are for general information, and should not be considered a solicitation for the purchase or sale of any security.	
+					<br>
+					<br>
+					If you don't choose us, you are literally the most uneducated individual in this world. You think your guy is good? We have Dave Ramsey. DAVE FLIPPIN RAMSEY. Do you even know who that is? Thats right, he is famous. So we are famous. We are better than your guy. Remember that when you are 90 and dont have any money for your funeral. Dave warned you, but you didnt listen.
+					<br>
+					<br>
+					Get rekt, bruh
+				</div>
+			</div>
+			<div class="col-sm-2 footerText">
+				<div style="margin-top:50px;color:white;">
+					CONTACT
+					<br>
+					(559) 123 4567
+					<br>
+					example@gmail.com
+					
+					<br>
+					7050 N. Fresno Street
+					<br>
+					Suite 105
+					<br>
+					Fresno, Ca 93720
+
+				</div>
+				<div id="socialDiv">
+					<span class="fa-stack fa-lg" style="margin-left:-4px;">
+						<!-- color:#55ACEE -->
+	  					<i class="fa fa-square-o fa-stack-2x"></i>
+	  					<i class="fa fa-twitter fa-stack-1x"></i>
+					</span>
+					<span class="fa-stack fa-lg" >
+						<!-- color:#55ACEE -->
+	  					<i class="fa fa-square-o fa-stack-2x"></i>
+	  					<i class="fa fa-facebook fa-stack-1x"></i>
+					</span>
+					<span class="fa-stack fa-lg" >
+						<!-- color:#55ACEE -->
+	  					<i class="fa fa-square-o fa-stack-2x"></i>
+	  					<i class="fa fa-linkedin fa-stack-1x"></i>
+					</span>
+				</div>
+			</div>
+			<div class="col-sm-2 footerText">
+				<div style="margin-top:50px;color:white;">
+					LINKS
+					<br>
+					<a href="daveRamsey.html" style="color:white;">Dave Ramsey</a>
+					<br>
+					<a href="aboutUs.html" style="color:white;">About Us</a>
+					<br>
+					<a href="contactUs.html" style="color:white;">Contact Us</a>
+					<br>
+					<a href="index.html" style="color:white;">Home</a>
+
+				</div>
+			</div>
+		</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+
+</html>
