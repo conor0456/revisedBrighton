@@ -1,7 +1,10 @@
 /*
-Green: #6FB353;
-Offwhite: #F9F9FA;
+Green: #49E9B9;
 
+DarkBlue: #394A58;
+
+
+Offwhite: #F9F9FA;
 */
 /**{ border: 1px solid red; }*/
 
@@ -21,7 +24,6 @@ html,body
     font-size: 20px;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: 'Adobe Caslon Pro', 'Hoefler Text', Georgia, Garamond;
 }
 
 .bio-left
@@ -29,7 +31,7 @@ html,body
     padding-top:70px;
     text-align: left;
     color: #424242;
-    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+
     letter-spacing:0.1em;
     text-transform: lowercase;
     font-size: 14pt;
@@ -49,7 +51,7 @@ html,body
     padding-top:70px;
     text-align: right;
     color: #424242;
-    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+
     letter-spacing:0.1em;
     text-transform: lowercase;
     font-size: 14pt;
@@ -125,7 +127,7 @@ body
 }
 #daveRamseyTitle
 {
-    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+
     text-align: center;
     font-size: 40px;
     letter-spacing: -.9px;
@@ -178,7 +180,7 @@ body
     color:white;
     padding-top:50px;
     /*font-family:'Open Sans', sans-serif;*/
-    font-family:14px/22px "Titillium Web";
+
     font-weight:100;
     width: 90%;
     margin-left: 5%;
@@ -199,10 +201,10 @@ body
 
 .headerText
 {
-    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-    padding-left: 20%;
+
+    padding-left: 15%;
     width:auto;
-    padding-right: 20%;
+    padding-right: 15%;
     text-align: center;
     font-size: 58px;
     letter-spacing: -.9px;
@@ -216,14 +218,14 @@ body
     min-height:500px;
     height:auto;
     background-color: white;
-    font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', Garamond, 'Time';
+
     display: table;
 }
 
 p 
 {
     color: #424242;
-    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+
     letter-spacing:0.1em;
     text-align:left;
     text-transform: lowercase;
@@ -277,7 +279,7 @@ p
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 30px;
-    font-family: 'Adobe Caslon Pro', 'Hoefler Text', Georgia, Garamond;
+
 }
 
 q 
@@ -320,7 +322,7 @@ q:after
 }
 .subText
 {
-    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+
     padding-left: 20%;
     width:auto;
     padding-right: 20%;
@@ -338,7 +340,6 @@ q:after
     padding-left:10%;
     padding-right:10%;
     font-size:23px; 
-    font-family:'Adobe Caslon Pro', 'Hoefler Text', Georgia, Garamond;
 }
 
 .title
@@ -348,7 +349,7 @@ q:after
     display: block; 
     margin: 0px auto; 
     text-align: center;
-    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, Time;
+    
 }
 
 #whatMakesUsDifferent
@@ -426,6 +427,7 @@ visibility: hidden;
     #bioDiv
     {
         padding-bottom: 20px;
+        background-color: white;
     }
     #whatMakesUsDifferent
     {
@@ -544,7 +546,7 @@ visibility: hidden;
   position: relative;
 }
 .separator-container .separator {
-  color: #6FB353;
+  color: #49E9B9;
   margin: 0 auto 1em;
   width: 11em;
 }
@@ -553,7 +555,7 @@ visibility: hidden;
   width: 40%;
   content: " ";
   margin-top: 14px;
-  border: 1px solid #6FB353;
+  border: 1px solid #49E9B9;
 }
 .separator-container .separator.line-separator:before {
   float: left;
